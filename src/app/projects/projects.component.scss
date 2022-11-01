@@ -1,0 +1,87 @@
+.project{
+    font-size: 36px;
+    color: #F1F1F1;
+}
+.project-title{
+    margin-top: 45px;
+}
+.network{
+    position: relative;
+    font-size: 16px;
+    color: #FFFFFF;
+    z-index: 20;
+}
+.type{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 42px;
+}
+.network-link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.network-link:first-child{
+    margin-left: 0;
+}
+.network-link:hover:after{
+    display: block;
+}
+.network-link::after{
+    content: "";
+    position: absolute;
+    display: none;
+    background-color: #0FCDA0;
+    height: 40px;
+    border-radius: 100px;
+    width: calc(100% + 20px);
+}
+.project-box{
+    background-color: #4A4855;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    margin-top: 58px;
+}
+.dashboard-title{
+    font-size: 24px;
+    color: #F1F1F1;
+}
+.dashboard-description{
+    font-size: 14px;
+    color: rgba($color: #F1F1F1E5, $alpha: 0.9);
+    width: 339px;
+    height: 120px;
+    margin-top: 24px;
+}
+.view-full{
+    position: relative;
+    font-size: 16px;
+    color: #0FCDA0;
+    margin-top: 136px;
+    max-width: 118px;
+}
+.description{
+    margin-left: 48px;
+}
+.view-full:hover::after{
+    display: block;
+}
+.view-full::after{
+    content: "";
+    position: absolute;
+    display: none;
+    background-color: #0FCDA0;
+    top: 28px;
+    width: calc(100%);
+    height: 2px;
+}
+.image-pc{
+    width: 650px;
+}

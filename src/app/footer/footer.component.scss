@@ -1,0 +1,23 @@
+.network{
+    font-size: 16px;
+    color: #F1F1F1;
+}
+.social-network{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.network-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.network-link{
+    margin-left: 24px;
+}
+.network-link:first-child{
+    margin-left: 0;
+}
+.container{
+    margin-top: 148px;
+}

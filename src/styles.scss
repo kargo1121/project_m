@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body,p,div{
+    margin: 0;
+    padding: 0;
+}
+a:link{
+    text-decoration: none;
+}
+@font-face{
+    font-family: outfit;
+    src: url(./assets/font/Outfit-VariableFont_wght.ttf);
+}
+.family{
+    font-family: outfit;
+}
+.font-weight-six{
+    font-weight: 600;
+}
+.font-weight-four{
+    font-weight: 400;
+}
